@@ -1,0 +1,219 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+h1 {
+    color: #005792;
+    margin-left: 60px;
+    padding: 20px;
+    text-align: left;
+}
+
+h2 {
+    margin-left: 60px;
+    padding: 20px;
+    text-align: left;
+}
+
+h3{
+    margin-left: 60px;
+    padding: 20px;
+    text-align: left;
+    color: lightseagreen;
+}
+
+p {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+    text-align: left
+    
+}
+
+
+
+body{
+    background: #fff;
+    text-align: center;
+}
+
+.navegacion{
+    width: 100%;
+    margin: 0px auto;
+    background: #005792;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color:paleturquoise;
+    transition: all .3s;
+}
+
+.submenu{
+    position: absolute;
+    z-index: 1;
+    background:lightseagreen;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.2s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.wrp{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.portada{
+    width: 100%;
+    height: 100%;
+    background: url(emotions.png);
+    background-attachment: fixed;
+}
+
+.contenido{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 11, 0.6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenido .info{
+    width:100%;
+    max-width: 750px;
+    text-align: center;
+}
+
+.contenido .info h1{
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.contenido .info a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px 25px;
+    color: #fff;
+    background: #005792;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    border: 2px solid transparent;
+    transition: all 30ms ease;
+    letter-spacing: 0,5px;
+}
+.contenido .info a:hover{
+    background: transparent;
+    border: 2px solid #fff;
+}
+.ola{
+    position:absolute;
+    width: 100%;
+    bottom: -10px;
+}
+
+.ola img{
+    width: 700%;
+}
+@media(max-width:768px){
+    .contenido .info h1{
+        font-size: 35px;
+    }
+}
+img{
+    margin-left: 80px;
+}
+
+div h1{
+    text-align:center;
+}
+
+.hobbies{
+    text-align: left;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}
+
+.music{
+    text-align: left;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}
+
+.videogames{
+    text-align: left;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}
+
+.movies{
+    text-align: left;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}
+
+.series{
+    text-align: left;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}
+.Anecdotes{
+    text-align: left;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}
+.Anecdotes img {
+    margin-left:0px;
+    padding-left: 0px;
+}
